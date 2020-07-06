@@ -20,6 +20,6 @@ steps:
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName AzureRmPipeline0705-repo -linkedTemplateUri "https://raw.githubusercontent.com/gt090617/AzureRmPipeline0705-repo/master/CreateWebApp/linkedStorageAccount.json"'
+    overrideParameters: '-projectName 0705prjname -linkedTemplateUri "https://raw.githubusercontent.com/gt090617/AzureRmPipeline0705-repo/master/CreateWebApp/linkedStorageAccount.json"'
     deploymentMode: 'Incremental'
     deploymentName: 'AzureRmPipeline0705-deploymnet'
